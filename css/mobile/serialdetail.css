@@ -1,0 +1,107 @@
+.detailsBox {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.serialDetail {
+  width: 100% !important;
+  flex-direction: ltr !important;
+  background-size: cover;
+  background-image: url(./oscar-DchSAJ_E.webp);
+  opacity: 1;
+  box-shadow: 50px 50px -25px #000;
+
+}
+.detail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 20px;
+  justify-content: flex-start;
+}
+.upDetail {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.upDetail > .right {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 15px;
+  max-width: 750px;
+}
+.upDetail > .right > h4 {
+  color: #fff;
+  font-weight: 700;
+}
+.upDetail > .right > span {
+  color: gray;
+  font-size: 12px;
+}
+.upDetail > .right .type {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 20px;
+}
+.upDetail > .right .type > span {
+  color: #fff;
+  font-size: 11px;
+  padding: 2px 12px;
+  background-color: #464545;
+  border-radius: 20px;
+  text-align: center;
+}
+.upDetail > .right > p {
+  display: flex;
+  color: #fff;
+  font-size: 13px;
+}
+.upDetail > .left {
+margin: 100px 0;
+}
+.upDetail > .left > img {
+  width: 50%;
+  display: block;
+  margin: 25px auto !important;
+
+}
+.downDetail {
+  width: 80%;
+}
+.downDetail > .swiper > .swiper-wrapper > .swiper-slide {
+  background-color: transparent;
+  width: 200px !important;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 20px;
+}
+.downDetail > .swiper > .swiper-wrapper > .swiper-slide > img {
+  background-color: #00f;
+  border-radius: 10px;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+.downDetail > .swiper > .swiper-wrapper > .swiper-slide > span {
+  color: #fff;
+  font-size: 13px;
+  text-align: right;
+  width: 90%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 35px;
+  height: 35px;
+  background-color: #252525;
+  border-radius: 50%;
+  color: #6e6d6d;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}

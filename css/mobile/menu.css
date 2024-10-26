@@ -1,0 +1,116 @@
+.menu {
+    width: 100%;
+
+    
+   
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 100px 30px 20px #000;
+    margin-top: 10px;
+  }
+  .btnstart{
+    display: block;
+    margin: 25px auto;
+  rotate: 90deg;
+  height: 60px;
+  width: 42px;
+  font-size: 24px;
+  background: #494747;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: all 400ms linear;
+  color: white;
+  &:hover{
+    scale: 0.9;
+    color: #f6ab03;
+  }
+  }
+  .uls{
+ opacity: 1 !important;
+  }
+  .menu nav {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+  row-gap: 10px;
+    justify-content:center;
+    align-items: center;
+  }
+  .menu nav ul {
+    width: 100%;
+ 
+    display: flex;
+    opacity: 0;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    background-color: #222121;
+    align-items: center;
+    list-style: none;
+
+  }
+  .menu nav ul img {
+  display: none;
+  }
+  .menu nav ul li {
+    border: 0.1px solid rgb(61, 61, 61);
+    border-radius: 10px;
+    width: 100% !important;
+    text-align: center;
+    display: block;
+    color: #fff;
+    z-index: 100;
+
+
+  }
+  .menu nav ul li a {
+    color: #fff;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 400px;
+   
+  }
+  .menu nav ul li a:hover {
+    color: #f6ab03;
+  }
+  .Subscription {
+    padding: 6px 15px;
+    background-color: #1cb561;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+    cursor: pointer;
+    transition: 0.3s;
+
+ 
+  }
+  .login {
+    padding: 6px 16px;
+    background-color: #373737;
+    color: #fff;
+    transition: 0.3s;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+    cursor: pointer;
+    margin-right: -15px;
+
+  }
+  .login:hover {
+    background-color: #000000;
+  }
+  .Subscription:hover {
+    background-color: #1cb561dd;
+  }
+  .white {
+    color: #fff !important;
+  }
